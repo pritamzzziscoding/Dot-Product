@@ -8,7 +8,7 @@
 - Mathematical Formula
 - Geometrical Meaning
 - Application Table
-
+- Vectors in Numpy
 
 ## Definations
 <ins>**General Defination :**</ins> In mathematics, the __*dot product*__ or __*scalar product*__ is an algebraic operation that takes two equal-length sequences of numbers (usually coordinate vectors), and returns a single number.
@@ -27,6 +27,9 @@ In Euclidean space, a Euclidean vector is a geometric object that possesses both
 
 The magnitude of a vector **a** is given by $||a|| = \sqrt{a_1^{2} + a_2^{2} + \ldots a_n^{2}}$ which is also known as Euclidean Norm
 
+<img style="background-color: white" src="./Inner-product-angle.svg.png" alt="This will be an image" height="200">
+
+
 ## Application Table
 | Domain | Use |
 | --- | --- |
@@ -34,15 +37,26 @@ The magnitude of a vector **a** is given by $||a|| = \sqrt{a_1^{2} + a_2^{2} + \
 | **Maths** | Used to analyse the 3-D system |
 
 > [!TIP]
-> Helpful advice for doing things better or more easily.
+> The dimension of a vector can also be greater than 3
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> Vectors are very important in ML and DL
 
 > [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> Never avoid vectors
 
 
+## Vectors in Numpy
+In order to access vectors in python use the Numpy[^1] library
+
+```
+import numpy as np
+
+a = np.array([1,2,3])
+```
+This will simply create you an vector.
+
+[^1]: It is a library in python for mathematical Manipulation. For more info read [Numpy Documentation](https://numpy.org/doc/) 
 
 
 
