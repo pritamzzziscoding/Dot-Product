@@ -27,14 +27,20 @@ In Euclidean space, a Euclidean vector is a geometric object that possesses both
 
 The magnitude of a vector **a** is given by $||a|| = \sqrt{a_1^{2} + a_2^{2} + \ldots a_n^{2}}$ which is also known as Euclidean Norm
 
-
-| Command | Description |
+## Application Table
+| Domain | Use |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| **Physics** | Used to denote various physical quantities like displacement |
+| **Maths** | Used to analyse the 3-D system |
 
+> [!TIP]
+> Helpful advice for doing things better or more easily.
 
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
 
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
 
 
 
