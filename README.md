@@ -51,8 +51,8 @@ In order to access vectors in python use the Numpy[^1] library
 
 ```
 import numpy as np
+
 a = np.array([1,2,3])
-print(a)
 ```
 This will simply create you an vector.
 
