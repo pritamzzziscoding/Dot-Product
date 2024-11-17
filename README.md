@@ -25,7 +25,7 @@ $$\text{\textbf{a}.\textbf{b}}= \sum_{i=1}^{n} a_i  b_i = a_1b_1 + a_2b_2+ \ldot
 ## Geometrical Meaning
 In Euclidean space, a Euclidean vector is a geometric object that possesses both a magnitude and a direction. A vector can be pictured as an arrow. Its magnitude is its length, and its direction is the direction to which the arrow points.
 
-The magnitude of a vector **a** is given by $||a|| = \sqrt{a_1^{2} + a_2^{2} + \ldots a_n^{2}}$ which is also known as Euclidean Norm
+The magnitude of a vector **a** is given by $$||a|| = \sqrt{a_1^{2} + a_2^{2} + \ldots a_n^{2}}$$ which is also known as Euclidean Norm
 
 <img style="background-color: white" src="./Inner-product-angle.svg.png" alt="This will be an image" height="200">
 
