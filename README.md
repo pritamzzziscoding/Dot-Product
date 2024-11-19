@@ -31,10 +31,10 @@ The magnitude of a vector **a** is given by $$||a|| = \sqrt{a_1^{2} + a_2^{2} + 
 
 
 ## Application Table
-| Domain | Use |
+| Versions | Features |
 | --- | --- |
-| **Physics** | Used to denote various physical quantities like displacement |
-| **Maths** | Used to analyse the 3-D system |
+| **main1.0** | Program to Find Dot Product |
+| **main2.0** | Optimised the code |
 
 > [!TIP]
 > The dimension of a vector can also be greater than 3
@@ -53,6 +53,11 @@ In order to access vectors in python use the Numpy[^1] library
 import numpy as np
 
 a = np.array([1,2,3])
+b = np.array([2,-3,7])
+
+print(a[0]*b[0]+a[1]*b[1]+a[2]*b[2])
+
+#will give the result as 17
 ```
 This will simply create you an vector.
 
